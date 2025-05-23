@@ -431,7 +431,7 @@ nav{
 .show {
     display: block;
     color: gray;
-    height: 80px;
+    height: auto;
     width: 200px;
     border-radius: 4px;
     gap:8px
