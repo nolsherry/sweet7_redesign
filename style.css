@@ -109,8 +109,8 @@ nav{
 }
 
 .hero_slogan{
-    width: auto;
-    height: 92vh;
+    width: 50%;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -120,8 +120,8 @@ nav{
 }
 
 .hero_img{
-    /* width:auto; */
-    /* height: 100vh; */
+    width:50%; 
+    height: 90vh;
     background-image: url("./image/cover-desktop-ver3.png");
     background-size: cover;
 }
@@ -603,7 +603,20 @@ footer{
     .hero_img{
         background-image: url("./image/cover-mobile.jpg");
         background-size: cover;
-        height: 100vh;
+        width: 100%;
+        height: 180vh;
+
+    }
+
+    .hero_slogan{
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 48px;
+        padding: 24px 96px;
+        background: linear-gradient(124deg, rgba(214, 221, 179, 0.60) 28.59%, rgba(192, 203, 135, 0.60) 51.71%, rgba(193, 203, 138, 0.60) 77.57%, rgba(191, 202, 133, 0.60) 98.79%);
     }
 
     .hero_menu{
