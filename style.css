@@ -1,0 +1,480 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 180px 24px 180px;
+    background-color: #FEFEFB;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.28px;
+}
+
+.logo{
+    width: 180px;
+    height: auto;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2.5rem;
+}
+
+.nav_item{
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent; 
+}
+
+.instgram-icon,.xiaohongshu-icon {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    transition: all .3s ease;
+    color: black;
+}
+
+.social_media a{
+    display: flex;
+    align-items: flex-end;
+    gap: 15px;
+    color: black;
+    font-size: 32px;
+    text-decoration: none;
+
+}
+
+.social_media{
+    display: flex;
+    align-items: flex-end;
+    gap: 15px;
+
+}
+
+.active{
+    text-decoration: none;
+    padding-bottom: 6px; 
+    border-bottom: 2px solid #F4E08B; 
+}
+
+.hero{
+    width: 100vw;
+    height: 90vh;
+    display: flex;    
+    flex-direction: row;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;    
+    flex-direction: column;
+    gap:16px;
+}
+
+.hero_slogan h2{
+    color: #24512A;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.56px;
+}
+
+
+.hero_slogan p, .hero_slogan_menu p{
+    color: #5A5D5B;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.28px;
+}
+
+.hero_slogan{
+    width: auto;
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 48px;
+    padding: 24px 96px;
+    background: linear-gradient(124deg, rgba(214, 221, 179, 0.60) 28.59%, rgba(192, 203, 135, 0.60) 51.71%, rgba(193, 203, 138, 0.60) 77.57%, rgba(191, 202, 133, 0.60) 98.79%);
+}
+
+.hero_img{
+    width:auto;
+    height: 100vh;
+}
+
+
+.hero_img img{
+    width: auto;
+    height: 92vh; 
+}
+
+.btn_list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+}
+
+
+.primary_btn{
+    display: flex;
+    height: 54px;
+    padding: 10px 20px;
+    background-color: #F2D968;
+    color: black;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+.secondary_btn{
+    height: 54px;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.primary_btn:hover{
+    background-color: #f7e285;
+    cursor: pointer;
+}
+
+.secondary_btn:hover{
+    background-color: rgb(247, 248, 245);
+    cursor: pointer;
+}
+
+.title {
+    padding: 16px 180px;
+    background-color: #F4E08B;
+}
+
+.category{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 0px 96px;
+    color: white;
+}
+
+
+.category_item{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px 48px 24px 0px;
+    background-color:wheat;
+    padding: 24px;
+    border-radius: 16px;
+}
+#new_product{
+    background-image: url("./image/ig_img/IG_5.jpg");
+    background-size:contain ;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#siganature_pomelo_sago{
+    background-image: url("./image/sweet-7-mango-drinks.jpg");
+
+}
+
+#siganature_mango_series{
+    background-image: url("./image/ig_img/IG_1.jpg");
+}
+
+#milk_tea{
+    background-image: url("./image/products/Signature_Milk_Tea_with\ Pearls.jpeg");
+}
+
+#fruit_tea{
+    background-image: url("./image/products/fruit_tea.jpeg");
+}
+
+#slush{
+    background-image: url("./image/products/Super\ Grape\ Slush\ with\ Jelly.jpeg");
+}
+
+#latte{
+    background-image: url("./image/products/Matcha\ Latte.jpeg");
+}
+
+#yogurt{
+    background-image: url("./image/products/Green\ Tea\ Yogourt\ Flavoured\ Drink.jpeg");
+}
+
+#soft_serve{
+    background-image: url("./image/products/Rose_Milk_Tea.jpeg");
+}
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 400px; /* 限制容器高，寬自動滿版 */
+  overflow: hidden;
+}
+
+.cover-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  /* ✅ 顯示完整鋪滿 */
+  object-position: center;
+  display: block;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6); /* 讓文字更清晰 */
+}
+
+
+
+/* Menu Page */
+
+.hero_menu{
+    width: 100vw;
+    height: 60vh;
+    display: flex;    
+    flex-direction: row;
+}
+
+.hero_img_menu{
+    align-items: center;
+    align-content: center;
+}
+
+.hero_slogan_menu h2{
+    color: #24512A;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.56px;
+}
+
+
+.hero_img_menu{
+    width: 10s0vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 48px;
+    padding: 24px 96px;
+    background: #EDE6CA;
+
+}
+
+.menu-cover-img{
+    width:100%; 
+    height:auto;
+    border-radius: 16px;
+}
+
+.hero_slogan_menu{
+    width: auto;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 48px;
+    padding: 24px 96px;
+    background: #EDE6CA;
+}
+
+.search{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 30vh;
+    padding: 32px 96px;
+    justify-content: center;
+    align-items: center;
+    background-color: #E8A113;
+    color: white;
+    margin: 32px 0px 0px 0px;
+    gap: 32px;
+
+}
+
+.search_list{
+    display: flex;
+    flex-direction: row;
+    gap:32px;
+}
+
+.search_btn{
+    display: flex;
+    height: 54px;
+    padding: 10px 20px;
+    background-color: #F2D968;
+    color: black;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 170px;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 5;
+  overflow: hidden;
+  gap:16px;
+  padding: 8px;
+  height: 200px;
+}
+
+.dropdown_item:hover, .dropdown_item:focus {
+  background-color: #b1cad8;
+}
+
+.dropdown_item{
+    height: 30px;
+    padding:4px;
+    font-size: 14px;
+}
+
+.dropdown_btn:hover, .dropdown_btn:focus {
+  border-color: #2980B9;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown_btn {
+    padding: 10px 20px;
+    width: 200px;
+    height: 54px;
+    background-color: white;
+    color: gray;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+
+.show {
+    display: block;
+    color: gray;
+    height: 80px;
+    width: 200px;
+    border-radius: 4px;
+    gap:8px
+}
+
+
+.title_product {
+    padding: 16px 180px;
+    background-color: white;
+}
+
+
+.menu_item{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px 48px 24px 0px;
+    background-color:white;
+    padding: 24px;
+    border-radius: 16px;
+    color: #5A5D5B;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.25);
+    gap:24px;
+}
+
+.menu_item img{
+    width: 300px;
+    height: auto;
+}
+
+footer{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #E8A113;
+    color: rgb(32, 32, 32);
+    padding-top: 1vh;
+    margin-top: 2vh;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 100;
+    font-size: 18px;
+}
