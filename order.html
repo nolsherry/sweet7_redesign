@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Order Now</title>
-    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>  
 </head>
 <body>
     <nav>
         <img class="logo" src="./image/logo.png" alt="SWEET 7">
-        <div class="nav-links">
+        <button class="hamburger" onclick="toggleMenu()">☰</button>
+        <div class="nav-links" id="navLinks">
             <a class="nav_item" href="index.html">Home</a>
             <a class="nav_item" href="menu.html">Menu</a>
             <a class="nav_item active" href="order.html">Order Now</a>

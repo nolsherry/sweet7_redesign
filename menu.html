@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SWEET7 Menu</title>
-    <script src="https://kit.fontawesome.com/f6b1e980df.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css"> 
+    <!-- <script src="script.js"></script>   -->
 </head>
 <body>
     <nav>
         <img class="logo" src="./image/logo.png" alt="SWEET 7">
-        <div class="nav-links">
+        <button class="hamburger" onclick="toggleMenu()">☰</button>
+        <div class="nav-links" id="navLinks">
             <a class="nav_item" href="index.html">Home</a>
             <a class="nav_item active" href="menu.html">Menu</a>
             <a class="nav_item" href="order.html">Order Now</a>
@@ -30,12 +31,12 @@
         </div>
     </nav>
     <div class="hero_menu">
-        <div class="hero_img_menu">
-            <img class="menu-cover-img" alt="" src="./image/sweet-7-mango-drinks.jpg" >
-        </div>
         <div class="hero_slogan_menu">
             <h2>Mango Pomelo Family</h2>
             <p>We take pride in bringing you only the best and freshest fruit juice.</p>
+        </div>
+        <div class="hero_img_menu">
+            <img class="menu-cover-img" alt="" src="./image/sweet-7-mango-drinks.jpg" >
         </div>
     </div>
     <div class="search">
@@ -143,6 +144,11 @@
         let selectedLocation = "Select Location";
         function myFunction() {
         document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        function toggleMenu() {
+        const nav = document.getElementById("navLinks");
+        nav.classList.toggle("show");
         }
 
     </script>
