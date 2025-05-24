@@ -497,7 +497,7 @@ nav{
 
 .menu_item{
     width: 400px;
-    height: 500px;
+    height: 550px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -638,8 +638,6 @@ footer{
 .vegan_tag{
     background-color: #BCDA99;
 }
-
-
 /*--------- Default Style End ---------*/
 /*--------- Tablet Style Start ---------*/
 @media (min-width: 768px) and (max-width:1200px){
@@ -924,7 +922,7 @@ footer{
 
     .menu_item{
         width: 400px;
-        height: 500px;
+        height: 550px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
