@@ -608,18 +608,6 @@ footer{
   cursor: pointer;
 }
 
-
-.tag {
-  display: inline-block;
-  background-color: #f0f0f0;
-  color: #333;
-  padding: 4px 10px;
-  margin:4px;
-  border-radius: 12px;
-  font-size: 14px;
-  font-weight: 500;
-}
-
 .tag {
   display: inline-block;
   color: #333;
@@ -832,6 +820,7 @@ footer{
 
     .nav-links.show {
         display: flex;
+        width: 100vw;
     }
 
     .hamburger {
