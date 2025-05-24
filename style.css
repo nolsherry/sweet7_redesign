@@ -539,6 +539,8 @@ footer{
     height: auto;
     padding: 4px 180px;
     background-color: #F4E08B;
+    align-items: center;
+    justify-content: center;
     
 }
 
@@ -773,6 +775,22 @@ footer{
         gap:24px;
     }
 
+    .card-img img{
+        width:90%;
+        max-width: 350px;
+        border-radius: 16px;
+    }
+
+    .loaction{
+        width: 100vw;
+        height: auto;
+        padding: 4px 24px;
+        background-color: #F4E08B;
+        align-items: center;
+        justify-content: center;
+    }
+
+
 }
 
 /*--------- Tablet Style End ---------*/
@@ -944,6 +962,7 @@ footer{
 
     .card{
         width: auto;
+        min-width:250px;
         height: auto;
         display: flex;
         flex-direction: column;
@@ -958,6 +977,19 @@ footer{
         color: #5A5D5B;
         box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.25);
         gap:24px;
+    }
+    .card-img img{
+        width:90%;
+        border-radius: 16px;
+    }
+
+    .loaction{
+        width: 100vw;
+        height: auto;
+        padding: 4px 24px;
+        background-color: #F4E08B;
+        align-items: center;
+        justify-content: center;
     }
 
 }
