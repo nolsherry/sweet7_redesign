@@ -212,6 +212,13 @@ nav{
     padding: 24px;
     border-radius: 16px;
 }
+
+.category_item:hover{
+    cursor: pointer;
+}
+
+
+
 #new_product{
     background-image: url("./image/ig_img/IG_5.jpg");
     background-size:contain ;
@@ -220,38 +227,83 @@ nav{
     background-size: cover;
     background-position: center;
 }
+#new_product:hover,#siganature_pomelo_sago:hover,#siganature_mango_series:hover,#milk_tea:hover,#fruit_tea:hover,#slus:hover,#latte:hover,#yogurt:hover,#soft_serve:hover{
+    transform: scale(1.01);
+}
+
+
 
 #siganature_pomelo_sago{
     background-image: url("./image/sweet-7-mango-drinks.jpg");
+    background-size:contain ;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
 }
 
 #siganature_mango_series{
     background-image: url("./image/ig_img/IG_1.jpg");
+     background-size:contain ;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #milk_tea{
     background-image: url("./image/products/Signature_Milk_Tea_with\ Pearls.jpeg");
+    background-size:contain ;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #fruit_tea{
     background-image: url("./image/products/fruit_tea.jpeg");
+    background-size:contain ;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #slush{
     background-image: url("./image/products/Super\ Grape\ Slush\ with\ Jelly.jpeg");
+    background-size:contain ;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #latte{
     background-image: url("./image/products/Matcha\ Latte.jpeg");
+    background-size:contain ;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #yogurt{
     background-image: url("./image/products/Green\ Tea\ Yogourt\ Flavoured\ Drink.jpeg");
+    background-size:contain ;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #soft_serve{
     background-image: url("./image/products/Rose_Milk_Tea.jpeg");
+    background-size:contain ;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .image-container {
   position: relative;
