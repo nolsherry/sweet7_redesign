@@ -643,6 +643,24 @@ footer{
         line-height: normal;
         letter-spacing: 1.28px;
     }
+
+    .nav_item{
+        text-decoration: none;
+        color: black;
+        border-bottom: 2px solid transparent; 
+        display: block;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 16px 24px;
+    }
+
+    .nav_item:hover{
+        background: lightgoldenrodyellow;
+    }
+
     .nav-links {
         display: none;
         flex-direction: column;
@@ -651,13 +669,19 @@ footer{
         right: 24px;
         background: white;
         border: 1px solid #ddd;
-        padding: 16px;
+        padding: 2vw;
         width: 160px;
         z-index: 10;
     }
 
     .nav-links.show {
         display: flex;
+        position: absolute;
+        top:92px;
+        left: 0;
+        width: 100vw;
+        height: auto;
+        gap:32px;
     }
 
     .hamburger {
@@ -776,6 +800,27 @@ footer{
         justify-content: center;
     }
 
+    .social_media a{
+        display: block;
+        align-items: flex-end;
+        color: black;
+        font-size: 32px;
+        text-decoration: none;
+        padding: 8px 24px;
+    }
+
+    .social_media a:hover{
+        background: lightgoldenrodyellow;
+    }
+
+    .social_media{
+        display: block;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 
 }
 
@@ -804,6 +849,23 @@ footer{
         line-height: normal;
         letter-spacing: 1.28px;
     }
+
+    .nav_item{
+        text-decoration: none;
+        color: black;
+        border-bottom: 2px solid transparent; 
+        display: block;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 16px 24px;
+    }
+
+    .nav_item:hover{
+        background: lightgoldenrodyellow;
+    }
   
     .nav-links {
         display: none;
@@ -820,7 +882,12 @@ footer{
 
     .nav-links.show {
         display: flex;
+        position: absolute;
+        top:92px;
+        left: 0;
         width: 100vw;
+        height: auto;
+        /* gap:32px; */
     }
 
     .hamburger {
@@ -889,7 +956,7 @@ footer{
         background: #EDE6CA;
     }
 
-     .hero_img_menu{
+    .hero_img_menu{
         width: 100vw;
         height: 50vh;
         display: flex;
@@ -979,4 +1046,25 @@ footer{
         justify-content: center;
     }
 
-}
+    .social_media a{
+        display: block;
+        align-items: flex-end;
+        color: black;
+        font-size: 32px;
+        text-decoration: none;
+        padding: 8px 24px;
+    }
+
+    .social_media a:hover{
+        background: lightgoldenrodyellow;
+    }
+
+    .social_media{
+        display: block;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+} 
