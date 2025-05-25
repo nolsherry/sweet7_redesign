@@ -35,13 +35,25 @@ nav{
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 2.5rem;
 }
 
 .nav_item{
     text-decoration: none;
     color: black;
     border-bottom: 2px solid transparent; 
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 16px 16px;
+}
+
+
+.nav_item:hover{
+    background-color: lightgoldenrodyellow;
+    border-bottom: 2px solid #F4E08B; 
 }
 
 .instgram-icon,.xiaohongshu-icon {
@@ -64,14 +76,14 @@ nav{
 
 .social_media{
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     gap: 15px;
-
+    padding: 16px;
 }
 
 .active{
     text-decoration: none;
-    padding-bottom: 6px; 
+    padding-bottom: 16px; 
     border-bottom: 2px solid #F4E08B; 
 }
 
@@ -180,6 +192,8 @@ nav{
     cursor: pointer;
 }
 
+
+
 .title {
     padding: 16px 180px;
     background-color: #F4E08B;
@@ -191,10 +205,10 @@ nav{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     background-color: white;
-    padding: 0px 96px;
+    padding: 0px 150px;
     color: white;
 }
 
@@ -215,6 +229,7 @@ nav{
 
 .category_item:hover{
     cursor: pointer;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
 }
 
 
@@ -427,6 +442,11 @@ nav{
     cursor: pointer;
 }
 
+.search_btn:hover{
+    background-color: #f7e285;
+    cursor: pointer;
+}
+
 .dropdown-content {
   display: none;
   position: absolute;
@@ -448,7 +468,7 @@ nav{
 .dropdown_item{
     height: 30px;
     padding:4px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .dropdown_btn:hover, .dropdown_btn:focus {
@@ -464,7 +484,7 @@ nav{
 
 .dropdown_btn {
     padding: 10px 20px;
-    width: 200px;
+    width: 250px;
     height: 54px;
     background-color: white;
     color: gray;
@@ -481,11 +501,24 @@ nav{
     display: block;
     color: gray;
     height: auto;
-    width: 200px;
+    width: 250px;
     border-radius: 4px;
-    gap:8px
+    gap:8px;
 }
 
+.branch_name{
+    margin: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    border-bottom: 8px solid #E8A113;
+}
+
+#menu_richmond{
+    display: none;
+}
 
 .title_product {
     padding: 16px 180px;
@@ -499,6 +532,7 @@ nav{
     width: 400px;
     height: 550px;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -509,7 +543,7 @@ nav{
     border-radius: 16px;
     color: #5A5D5B;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.25);
-    gap:24px;
+    gap:16px;
 }
 
 .menu_item img{
@@ -657,8 +691,10 @@ footer{
         padding: 16px 24px;
     }
 
+
     .nav_item:hover{
-        background: lightgoldenrodyellow;
+        background-color: lightgoldenrodyellow;
+        border-bottom: 2px solid #F4E08B;
     }
 
     .nav-links {
@@ -752,6 +788,7 @@ footer{
         justify-content: center;
         align-items: center;
     }
+    
 
     .search{
         display: flex;
@@ -765,6 +802,18 @@ footer{
         color: white;
         margin: 0px;
         gap: 32px;
+    }
+
+    .category{
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        color: white;
     }
 
     .card{
@@ -811,6 +860,7 @@ footer{
 
     .social_media a:hover{
         background: lightgoldenrodyellow;
+        border-bottom: 2px solid #F4E08B;
     }
 
     .social_media{
@@ -864,7 +914,8 @@ footer{
     }
 
     .nav_item:hover{
-        background: lightgoldenrodyellow;
+        background-color: lightgoldenrodyellow;
+        border-bottom: 2px solid #F4E08B; 
     }
   
     .nav-links {
@@ -887,7 +938,6 @@ footer{
         left: 0;
         width: 100vw;
         height: auto;
-        /* gap:32px; */
     }
 
     .hamburger {
@@ -978,8 +1028,9 @@ footer{
 
     .menu_item{
         width: 400px;
-        height: 550px;
+        height: 580px;
         display: flex;
+        flex-direction: column;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
@@ -990,7 +1041,7 @@ footer{
         border-radius: 16px;
         color: #5A5D5B;
         box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.25);
-        gap:24px;
+        gap:16px;
     }
 
     .title, .title_product {
@@ -1012,6 +1063,18 @@ footer{
         color: white;
         margin: 0px;
         gap: 32px;
+    }
+
+    .category{
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        color: white;
     }
 
     .card{
@@ -1057,6 +1120,7 @@ footer{
 
     .social_media a:hover{
         background: lightgoldenrodyellow;
+        border-bottom: 2px solid #F4E08B; 
     }
 
     .social_media{
